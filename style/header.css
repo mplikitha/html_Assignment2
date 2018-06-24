@@ -1,0 +1,22 @@
+body, html {
+height:100%;
+}
+
+/* the hero image */
+#hero-image img {
+display:inline-block;
+padding:0;
+}
+
+
+
+/* hero text */
+#hero-text {
+text-align: center;
+position: relative;
+top: 50%
+left:50%
+/*transform: translate(-50%, -50%);*/
+color:black;
+
+}

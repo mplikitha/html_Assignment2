@@ -1,0 +1,56 @@
+#menu {
+height:60px;
+background-color:#666;
+}
+
+ #menu ul {
+margin:0;
+padding:0;
+}
+
+#menu li {
+list-style-type:none;
+float:left;
+display:block;
+width:150px;
+height:60px;
+text-align:center;
+line-height:55px;
+font-family:Tahoma, Geneva, Sans-serif;
+font-size:17px;
+}
+
+#menu li a {
+text-decoration:none;
+color:white;
+}
+
+#menu li:Hover {
+background-color:green;
+}
+.btn {
+background-color:dodgerBlue;
+border:none;
+color:white;
+padding:18px 30px;
+font-size:16px;
+cursor:pointer;
+font-size:20px;
+
+}
+
+#Header {
+text-align:center;
+line-height:30px;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:30px;
+padding:0px 5px;
+}
+ 
+#Mainbody li a {
+text-decoration:none;
+color:red;
+}
+
+
+

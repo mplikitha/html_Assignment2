@@ -1,0 +1,13 @@
+#footer {
+float:right;
+margin-top:5px;
+}
+
+#footer li {
+display:inline;
+}
+
+#footer span {
+margin-top: -20px;
+}
+
