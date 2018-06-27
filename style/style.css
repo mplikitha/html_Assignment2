@@ -1,4 +1,17 @@
+#scrolldown {
+    width:1000px;
+    height:auto;
+    margin-left:auto;
+margin-right:auto;
+margin-top:11px;
+margin-bottom:21px;
+    
+    overflow:scroll;
+border-block-end-color: black;
 
+
+
+}
 #container {
 width:960px;
 height:auto;
@@ -6,60 +19,51 @@ margin-left:auto;
 margin-right:auto;
 margin-top:11px;
 margin-bottom:21px;
-}
-#Header {
-height:120px;
-background-color:#2c2c2c;
-color:#ffffff;
 
-}
-
-#Header h1 {
-position:relative;
-top:18px;
-left:10px;
 }
 #menu {
-height:60px;
+height:70px;
 background-color:#bbbbbb;
+position: fixed;
 }
-.fix-gap {
-    margin-top: 0;
+#menu h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
-#About_us {
-    width:960px;
-    height:50px;
-    color:white;
-    text-align:center;
-    background-color:#0d22dfad;
-    padding-top: 5px;
-    }
 #hero-image {
     height:350px;
-width:360;
-    background-color:#adc7d9;
+width:480px;
+margin-top: 60px;   
 float:left;
 }
 
 #hero-text {
 height:350px;
-width:600px;
+width:480px;
 float:right;
-background-color:#adc7d9;
+background-color:rgba(64, 177, 92, 0.164);
 font-family:Tahoma, Geneva, Sans-serif;
 font-size:16px;
+margin-top: 60px;
 text-decoration:none;
 line-height:5px;
-
 }
 
 #sidebar {
 width:480px;
-height:720px;
+height:760px;
 background-color:whitesmoke;
 float:left;
 }
+#sidebar p {
+    width:430px;
+}
 #mission {
+    
     width:480px;
     height:240px;
     
@@ -79,17 +83,16 @@ float:left;
     font-size:16px;
     background-color:aliceblue;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-
+    text-align: justify;
+padding-left: 0;
     color:black;
 }
 
-)
-
  #mainbody{
+    
     width:480px;
-    height:720px;
-    background-color:blue;
+    height:760px;
+    background-color:whitesmoke;
     
     float:left;
 }
@@ -100,6 +103,7 @@ background:white;
 margin-bottom: 5px;
 margin-top: 20px;
 float:left;
+padding-bottom: 10px;
 }
 #two {
 width:480px;
@@ -107,6 +111,8 @@ height:200px;
 background:white;
 margin-bottom:5px;
 float:left;
+text-align: justify;
+margin-top: 10px;
 }
 #three {
 width:480px;
@@ -116,24 +122,27 @@ font-size:16px;
     color:black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 float:left;
+text-align: justify;
+padding-bottom: 20px;
+margin-top: 10px;
 }
 #wrapper {
+   
     width:960px;
     height:500px;
+    padding-top: 20px;
     
    
 }
 
-
-
 #footer {
+    
  padding-top: 10px;   
-height:120px;
+height:70px;
 width:960px;
 background-color:#2c2c2c;
 color:#ffffff;
 font-size:20px;
-
 }
 
 
